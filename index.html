@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Website rhiza</title>
+    <style>
+		.container {
+			width: 80%;
+			margin: 0 auto;
+		}
+
+		@media (max-width: 768px) {
+			.container {
+				width: 95%;
+			}
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #eea3a3;
+		}
+		
+		.container {
+			width: 80%;
+			margin: 40px auto;
+			background-color: #ffebeb;
+			padding: 20px;
+			border: 1px solid #d4a2a2;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(243, 239, 239, 0.938);
+		}
+		
+		.header {
+			background-color: #ef6fa4;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+		}
+		
+		.footer {
+			background-color: #e82878;
+			color: #fff;
+			padding: 10px;
+			text-align: center;
+			clear: both;
+		}
+		
+		.menu {
+			float: left;
+			width: 20%;
+			background-color: #ffebeb;
+			padding: 20px;
+		}
+		
+		.content {
+			float: left;
+			width: 80%;
+			padding: 20px;
+		}
+
+        .kotak {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .kotak-isi {
+            width: 25%;
+            background-color: #ffffff;
+            padding: 20px;
+            border: 1px solid #fffcfc;
+            border-radius: 10px;
+            text-align: center;
+        }
+	</style>
+</head>
+<body>
+
+			<script>
+                var nama = prompt ("Siapa nama kamu?", "");
+                alert("SELAMAT DATANG DI WEBSITE PINK");
+
+            </script>
+    <div class="container">
+		<div class="header">
+			<h1>HAI! SELAMAT DATANG SEMUANYA!!!</h1>
+		</div>
+		<div class="menu">
+			<script>
+				document.write("<p> HELLO " +nama+"</p>");
+			</script>
+            
+			<h2>My Husbu</h2>
+			<ul>
+				<li><a href="#">Yuji Itadori</a></li>
+				<li><a href="#">Kim Dokja</a></li>
+				<li><a href="#">Toro wee</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<h2>Senang Bertemu denganmu!</h2>
+			<p>Ini adalah contoh website sederhana menggunakan HTML dan CSS.</p>
+		</div>
+		<div class="footer">
+			<p>&copy; husbuaniaweb</p>
+		</div>
+	</div>
+    <div class="kotak">
+        <div class="kotak-isi">
+            <h2>Rekomendasi Anime Action!</h2>
+            <ul>
+                <li><a href="#">Kaiju no.8</a></li>
+                <li><a href="#">Kimetsu no yaiba</a></li>
+                <li><a href="#">Jujutsu kaisen</a></li>
+            </ul>
+        </div>
+
+        <div class="kotak-isi">
+            <h2>Rekomendasi Manhwa Action!</h2>
+            <ul>
+                <li><a href="#">Solo Leveling</a></li>
+                <li><a href="#">Omniscient Reader's Viewpoint</a></li>
+                <li><a href="#">The God of High School</a></li>
+            </ul>
+        </div>
+
+        <div class="kotak-isi">
+            <h2>Rekomendasi Manga Action!</h2>
+            <ul>
+                <li><a href="#">Houseki no Kuni</a></li>
+                <li><a href="#">Berserk</a></li>
+                <li><a href="#">Bleach</a></li>
+            </ul>
+        </div>
+
+    </div>
+</body>
+</html>
